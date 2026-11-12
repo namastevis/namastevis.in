@@ -57,10 +57,10 @@ a:hover { text-decoration-thickness: 3px; }
 
 .site-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .75rem 2rem; padding-block: 1.5rem 1rem; }
 .wordmark { font-variation-settings: "wdth" 115; font-weight: 700; font-size: 1.3rem; text-decoration: none; color: var(--cream); }
-.site-nav { display: flex; flex-wrap: wrap; gap: .25rem 1.4rem; font-size: 1.02rem; }
+.site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem 1.4rem; font-size: 1.02rem; }
 .site-nav a { color: var(--cream-soft); text-decoration: none; padding-block: .25rem; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--cream); text-decoration: underline; text-decoration-color: var(--marigold); }
-.site-nav .nav-sep { color: var(--cream-soft); opacity: .5; margin-inline: -.75rem; }
+.site-nav .nav-sep { width: 1px; height: 1.3em; background: var(--cream-soft); opacity: .5; margin-inline: .6rem; }
 
 /* Hero */
 .hero { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; align-items: center; padding-block: clamp(1.5rem, 5vw, 3.5rem) clamp(2.5rem, 5vw, 4rem); }
